@@ -17,21 +17,17 @@
         <div class="content">
             <div class="box input">
                 <textarea class="input-html" onkeyup="liveHTML()" type="text/html" placeholder="Code in HTML"
-                    autofocus="on" cols="100" rows="20" spellcheck="false"></textarea>
+                    autofocus="on" cols="100" rows="20" spellcheck="false"><h1>This is HTML Live Editor</h1></textarea>
             </div>
 
             <div class="box output">
-                <!-- <div class="output"></div> -->
             </div>
         </div>
     </div>
 
     </div>
-    <script>
-        function liveHTML() {
-            document.querySelector('.output').innerHTML = document.querySelector(".input-html").value;
-        };
-    </script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

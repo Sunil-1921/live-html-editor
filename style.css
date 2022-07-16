@@ -20,9 +20,10 @@
   position: absolute;
   right: 0;
   top: 54px;
-  background-color: rgb(255, 180, 180);
   border: 1px solid black;
   padding: 10px;
+  overflow-y: scroll;
+  background: linear-gradient();
 }
 
 .input-html{
