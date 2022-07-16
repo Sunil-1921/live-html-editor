@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live Html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="outer">
+        <div class="heading">
+            <h1>Live HTML Editor</h1>
+        </div>
+        <div class="content">
+            <div class="box input">
+                <textarea class="input-html" onkeyup="liveHTML()" type="text/html" placeholder="Code in HTML"
+                    autofocus="on" cols="100" rows="20" spellcheck="false"></textarea>
+            </div>
+
+            <div class="box output">
+                <!-- <div class="output"></div> -->
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script>
+        function liveHTML() {
+            document.querySelector('.output').innerHTML = document.querySelector(".input-html").value;
+        };
+    </script>
+</body>
+
+</html>
